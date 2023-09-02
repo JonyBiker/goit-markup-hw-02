@@ -8,7 +8,7 @@
     padding-right: 472px;
     padding-bottom: 292px;
 }
-.body {
+body {
 
     font-family: 'Raleway', sans;
     font-family: 'Roboto', sans-serif;
@@ -17,27 +17,19 @@
     border: #fff;
 }
 .top-line {
-    display: flex;
-        width: 1440px;
-        height: 72px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
+
         border-bottom: 1px
        
 }
 .logo-web {
     color: #4D5AE5;
-    font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
+        line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        padding-left: 156px;
-        padding-right: 1240px;
-        padding-top: 25.5px;
-        padding-bottom: 25.5px;
 }
 .logo-studio {
     color: #2e2f42;
@@ -57,10 +49,6 @@
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
-        padding-left: 1131px;
-        padding-right: 156px;
-        padding-top: 24px;
-        padding-bottom: 24px;
 
 }
 .address-mail {
@@ -70,10 +58,6 @@
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
-        padding-left: 940px;
-        padding-right: 347px;
-        padding-top: 24px;
-        padding-bottom: 24px;
 }
 .hero-header {
 color: #fff;
@@ -145,9 +129,26 @@ letter-spacing: 0.4px;
 }
 .footer-section {
 background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+
 }
 .logo-studio-footer {
     color:#F4F4FD;
+    padding-bottom: 189.5px;
+    padding-right: 1169px;
+
+}
+.logo-web-footer {
+color: #4D5AE5;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 .footer-text {
 color:#F4F4FD;
