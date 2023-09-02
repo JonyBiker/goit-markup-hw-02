@@ -1,11 +1,27 @@
 
 .main-section {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-bottom: 292px;
 }
-body {
+.body {
 
     font-family: 'Raleway', sans;
     font-family: 'Roboto', sans-serif;
+    width: 1440px;
+    height: 3300px;
+    border: #fff;
+}
+.top-line {
+    display: flex;
+        width: 1440px;
+        height: 72px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-bottom: 1px
        
 }
 .logo-web {
@@ -16,6 +32,10 @@ body {
         font-weight: 700;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        padding-left: 156px;
+        padding-right: 1240px;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
 }
 .logo-studio {
     color: #2e2f42;
