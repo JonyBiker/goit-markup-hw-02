@@ -1,5 +1,4 @@
 body {
-    font-family: 'Raleway', sans;
     font-family: 'Roboto', sans-serif;
     color:#434455;
     background-color:#FFFFFF;
@@ -25,8 +24,6 @@ body {
         font-weight: 500;
         line-height: 01.5;
         letter-spacing: 0.02em;
-        list-style-type: none;
-        text-decoration: none;
 }
 .address-tel {
     color:#434455;
@@ -45,7 +42,7 @@ body {
         line-height: 24px;
         letter-spacing: 0.32px;
 }
-.ul {
+ul {
     list-style-type: none;
 }
 .main-section {
@@ -127,30 +124,27 @@ letter-spacing: 0.4px;
 background-color: #2E2F42;
     width: 1440px;
     height: 312px;
-    flex-shrink: 0;
-
 }
 .logo-studio-footer {
+    font-family: "Raleway" sans-serif;
     color:#F4F4FD;
-    padding-bottom: 189.5px;
-    padding-right: 1169px;
-
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .logo-web-footer {
-color: #4D5AE5;
-    font-family: 'Raleway';
+    color: #4D5AE5;
+    font-family: 'Raleway' sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .footer-text {
 color:#F4F4FD;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
