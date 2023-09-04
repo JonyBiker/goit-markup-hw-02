@@ -23,10 +23,10 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color:  #2E2F42;
 }
-.nav-link:hover .nav-link:focus  {
+.nav-link:hover, .nav-link:focus  {
 color: #404bbf
 }
-.address:hover: .address:focus{
+.address:hover, .address:focus{
     color: #404bbf
 }
 .address {
@@ -60,7 +60,7 @@ letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
 }
-.button:hover,:focus {
+.button:hover,.button:focus {
 color:#404BBF;
 }
 .header-text {
