@@ -60,8 +60,11 @@ letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
 }
-.button:hover, .button:focus {
+.button:hover {
 color:#404BBF;
+}
+.button:focus {
+    color: #404BBF;
 }
 .header-text {
 color: #2e2f42;
