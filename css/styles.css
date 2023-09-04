@@ -24,10 +24,10 @@ color: #2e2f42;
     color:  #2E2F42;
 }
 .nav-link:hover, .nav-link:focus {
-color: #404bbf
+color: #404bbf;
 }
 .address:focus, .nav-link:hover {
-    color: #404bbf
+    color: #404bbf;
 }
 .address {
 color: #434455;
@@ -41,7 +41,7 @@ ul {
 list-style-type: none;
 }
 .main-section {
-background-color: #2E2F42
+background-color: #2E2F42;
     }
 .hero-header {
 color: #ffffff;
