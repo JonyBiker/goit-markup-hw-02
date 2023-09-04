@@ -26,6 +26,9 @@ color: #2e2f42;
 .nav-link:hover .nav-link:focus  {
 color: #404bbf
 }
+.address:hover .address:focus {
+    color: #404bbf
+}
 .address {
 color: #434455;
 font-size: 16px;
@@ -33,9 +36,6 @@ font-style:normal;
 font-weight: 500;
 line-height: 01.5;
 letter-spacing: 0.02em;
-}
-.address:hover .address:focus {
-    color: #404bbf
 }
 ul {
 list-style-type: none;
